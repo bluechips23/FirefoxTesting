@@ -1,0 +1,1 @@
+This is a minimal firefox extension for debugging purposes. Right now it shows the error while trying to dynamically create Highcharts in Firefox extension.
