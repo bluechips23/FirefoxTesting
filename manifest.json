@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "AppDebugging",
+  "description": "Testing app",
+  "version": "2.0.0.0",
+  "icons": {
+		"16": "16.png",
+ 		"48": "48.png",
+		"128": "128.png"
+  },
+  
+  "background": {
+    "scripts": ["browser.js", "eventPage.js"],
+    "persistent": false
+  },
+
+  "page_action": {
+    "default_icon": "icon4.png",
+    "default_popup": "popup.html",
+    "default_title": "Testing App"
+  },
+  
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "tabs"
+  ]
+}
